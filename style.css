@@ -1,1 +1,44 @@
 
+body{
+  margin: 0;
+  background-color: #F99501;
+}
+
+.jhalaar,.deepak{
+  height: 20rem;
+}
+
+.hero-section{
+  background-image: url('./images/hero.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 100vh;
+}
+
+.hero-section p{
+  font-size: 44px;
+  color: #1E1E1E;
+  margin: 0.75rem 0;
+  font-family: "Salsa", cursive;
+}
+
+.audio-and-text{
+  max-width: 35rem;
+  margin-left: 15%;
+}
+
+.divider{
+  margin: 4px;
+  color:#fff;
+}
+
+.main-section p{
+  font-size: 70px;
+  font-family: "Style Script", cursive;
+  text-align: center;
+}
+
+.main-section img{
+  width: 96vw;
+  margin: 0 auto;
+}
