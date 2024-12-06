@@ -11,7 +11,7 @@ body{
 .hero-section{
   background-image: url('./images/hero.svg');
   background-repeat: no-repeat;
-  /* background-size: cover; */
+  background-size: cover;
   min-height: 100vh;
 }
 
@@ -25,6 +25,24 @@ body{
 .audio-and-text{
   max-width: 35rem;
   margin-left: 15%;
+}
+
+.audio-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  border-radius: 35px;
+  background-color: #fbd8a4;
+}
+
+.audio-text{
+  color: #000;
+  font-family: "Salsa", cursive;
+}
+
+audio::-webkit-media-controls-panel{
+  background-color: #fbd8a4;
 }
 
 .divider{
