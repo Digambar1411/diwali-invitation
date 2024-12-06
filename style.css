@@ -193,14 +193,14 @@ footer{
   }
 
   .msg-box{
-    max-width: 20rem;
+    max-width: 22rem;
     min-width: 10rem;
     border-radius: 1rem;
     padding: 0 1rem;
   }
 
   .msg-box p{
-    width: 75%;
+    width: 80%;
   }
    
   .msg-section img{
