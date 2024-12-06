@@ -15,7 +15,7 @@
   <section class="hero-section">
     <img class="jhalaar" src="/images/jhalar.png" alt="jhalaar" srcset="">
     <div class="audio-and-text">
-      <p>Hi, <br>
+      <p>Hi <strong id="receiver"></strong>, <br>
         You mean the world to me... <br>
         So this Diwali, <br>
         I made something for you!</p>
@@ -76,8 +76,17 @@
   <footer>
     <p>Happy Diwali and,</p>
     <p class="thank-you">Thank You For Everything...</p>
-    <p class="made-with">Made with 💜 By Digambar Deshawal</p>
+    <p class="made-with">Made with 💜 By <span id="sender"></span></p>
   </footer>
+
+  <script>
+    let receiverEl = document.getElementById('receiver');
+    let senderEl = document.getElementById('sender');
+    let senderName = new URLSearchParams(location.search).get('sender') || 'Digambar';
+    let receiverName = new URLSearchParams(location.search).get('receiver');
+    senderEl.innerText = senderName;
+    receiverEl.innerText = receiverName;
+  </script>
 
 
 </body>
