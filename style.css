@@ -23,14 +23,13 @@ body{
 }
 
 .audio-and-text{
-  max-width: 35rem;
+  max-width: max-content;
   margin-left: 15%;
 }
 
 .audio-container {
   display: flex;
   justify-content: center;
-  gap: 1rem;
   align-items: center;
   border-radius: 35px;
   background-color: #fbd8a4;
@@ -39,6 +38,7 @@ body{
 .audio-text{
   color: #000;
   font-family: "Salsa", cursive;
+  margin: 0 0.5rem;
 }
 
 audio::-webkit-media-controls-panel{
@@ -124,7 +124,7 @@ footer p{
   float: right;
 }
 
-@media screen and (max-width:430px){
+@media screen and (max-width:840px){
   .hero-section{
     background-image: none;
     min-height: auto;
@@ -172,8 +172,11 @@ footer p{
   }
 
   .audio-and-text{
-    width: 90%;
-    margin: 0 auto;
+    margin-left: 5%;
+  }
+
+  .music-icon{
+    margin-left: 0.75rem;
   }
 
   .laxmi-section img,.main-section img, .sarswati-section img{
