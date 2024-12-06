@@ -11,14 +11,14 @@ body{
 .hero-section{
   background-image: url('./images/hero.svg');
   background-repeat: no-repeat;
-  background-size: contain;
+  /* background-size: cover; */
   min-height: 100vh;
 }
 
 .hero-section p{
   font-size: 44px;
   color: #1E1E1E;
-  margin: 0.75rem 0;
+  margin: 0.75rem 0 !important;
   font-family: "Salsa", cursive;
 }
 
@@ -28,17 +28,80 @@ body{
 }
 
 .divider{
-  margin: 4px;
-  color:#fff;
+  color:#FBD8A4;
+  border-width: 3px;
+  margin: 2rem 0;
+}
+
+.main-section{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-content: center;
 }
 
 .main-section p{
   font-size: 70px;
   font-family: "Style Script", cursive;
   text-align: center;
+  margin: 0;
+  margin-top: 1rem;
 }
 
-.main-section img{
-  width: 96vw;
+.msg-section{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.msg-box{
+  width: 40rem;
+  height: 40rem;
+  background-color: #fff;
+  position: absolute;
+  left: 15rem;
+  border-radius: 1rem;
+  padding: 0 3.5rem;
+}
+
+
+.msg-box p{
+  width: 70%;
+  font-size: 45px;
+}
+
+.msg-section img{
+  position: relative;
+  left: 20rem;
+  top: 0rem;
+}
+
+.laxmi-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.laxmi-section img,.main-section img{
+  width: 96%;
   margin: 0 auto;
+}
+
+footer{
+  padding: 0 2%;
+}
+
+footer p{
+  font-family: "Salsa", cursive;
+  color: #1E1E1E;
+}
+
+.thank-you{
+  margin: 0;
+  font-size: 70px;
+  font-family: "Style Script", cursive;
+}
+
+.made-with{
+  float: right;
 }
