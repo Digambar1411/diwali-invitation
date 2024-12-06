@@ -123,3 +123,79 @@ footer p{
 .made-with{
   float: right;
 }
+
+@media screen and (max-width:430px){
+  .hero-section{
+    background-image: none;
+    min-height: auto;
+  }
+
+  .hero-section p{
+    font-size: 20px;
+  }
+
+  .main-section p{
+    font-size: 24px;
+  }
+
+  .msg-section p{
+    font-size: 16px;
+  }
+
+  footer p{
+    font-size: 14px;
+  }
+
+  .thank-you{
+    font-size: 18px;
+  }
+
+  .made-with{
+    font-size: 12px;
+  }
+
+  .jhalaar,.deepak{
+    height: 15rem;
+  }
+
+  .deepak-section{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .deepak-2,.music-waves,.audio-text{
+    display: none;
+  }
+
+  .deepak{
+    margin-bottom: -3rem;
+  }
+
+  .audio-and-text{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .laxmi-section img,.main-section img, .sarswati-section img{
+    width: 100%;
+  }
+  .msg-box{
+    width: 15rem;
+    height: auto;
+    position: absolute;
+    left: 2.5rem;
+    border-radius: 1rem;
+    padding: 0 1rem;
+  }
+
+  .msg-box p{
+    width: 80%;
+  }
+   
+  .msg-section img{
+    height: 18rem;
+    position: relative;
+    left: 8rem;
+    top: 0rem;
+  }
+}
