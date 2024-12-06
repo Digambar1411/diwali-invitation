@@ -158,9 +158,9 @@ footer p{
     height: 15rem;
   }
 
-  .deepak-section{
-    display: flex;
-    justify-content: flex-end;
+  .deepak-1{
+    display: block;
+    margin-left: auto;
   }
 
   .deepak-2,.music-waves,.audio-text{
