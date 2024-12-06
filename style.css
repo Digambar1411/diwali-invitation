@@ -92,27 +92,30 @@ audio::-webkit-media-controls-panel{
 
 .msg-section{
   display: flex;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
-  width: 90%;
-  position: relative;
   max-width:var(--image-max-width);
   margin: 0 auto;
 }
 
 .msg-box{
   width: 80%;
-  max-width: 40rem;
+  max-width: 50rem;
   height: max-content;
   background-color:var(--background-color-white);
-  position: relative;
   border-radius: 1rem;
-  padding: 0 3rem;
+  padding: 0 3.5rem;
+  margin-left: 6rem;
+}
+
+.little-girl{
+  width: 280px;
 }
 
 .msg-section img{
+  height:50rem;
   position: relative;
-  right: 8rem
+  right:6rem;
 }
 
 .msg-box p{
@@ -190,7 +193,8 @@ footer{
   }
 
   .msg-box{
-    max-width: 16rem;
+    max-width: 20rem;
+    min-width: 10rem;
     border-radius: 1rem;
     padding: 0 1rem;
   }
@@ -202,6 +206,10 @@ footer{
   .msg-section img{
     height: 18rem;
     position: relative;
-    right: 5rem;
+    right: 2rem;
+  }
+
+  .little-girl{
+    width: 25%;
   }
 }
